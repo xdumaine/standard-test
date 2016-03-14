@@ -4,7 +4,8 @@ class DataChannelThroughputTest extends Test {
   constructor () {
     super(...arguments)
     this.samplePacket = ''
-
+    
+    // this for loop causes a standardjs error indicating that some code paths do not call super()
     for (let i = 0; i !== 1024; ++i) {
       this.samplePacket += 'h'
     }
