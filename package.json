@@ -1,0 +1,25 @@
+{
+  "name": "standard-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xdumaine/standard-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xdumaine/standard-test/issues"
+  },
+  "pre-push": [
+     "test"
+  ],
+  "homepage": "https://github.com/xdumaine/standard-test#readme",
+  "dependencies": {
+    "pre-push": "^0.1.1"
+  }
+}
